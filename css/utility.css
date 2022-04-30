@@ -1,0 +1,35 @@
+.loader{
+  background: none repeat scroll 0 0 white;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left:0;
+  top:0;
+  right:0;
+  z-index: 9999;
+}
+.loader-inner{
+  position:absolute;
+  height: 80px;
+  width: 100px;
+  left:38%;
+  top: 22%;
+  }
+.loader-image{
+  border-radius: 50%;
+}
+@media only screen and (max-width: 600px){
+  .loader-inner{
+    left: 1%;
+    top: 10%;
+  }
+}
+@media only screen and (max-width: 768px){
+  .loader-inner{
+    left: 20%;}
+  }
+@media only screen and (max-width: 992px){
+  .loader-inner{
+    left: 28%;}
+}
